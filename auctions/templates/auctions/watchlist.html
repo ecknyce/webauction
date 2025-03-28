@@ -1,0 +1,20 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+    {% for list in listings %}
+        
+        <div class="list-card">
+            <div class="list-image">
+                <img src="{{ list.image.url }}" alt="Picture for {{ list.title }}">
+            </div>
+            <div class="list-details">
+                <h2>{{ list.title }}</h2>
+                <p>{{ list.description }}</p>
+                <p><strong>Price: </strong>${{ list.price.bid }}</p>
+                <p id="creator">created by {{ list.author }}</p>
+                <p>Listed on {{ list.dateCreated }}</p>
+                <a href="{% url 'list_detail' id=list.id %}">Details</a>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}

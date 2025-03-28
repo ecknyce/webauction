@@ -1,0 +1,109 @@
+body {
+    padding: 10px;
+}
+.list-card {
+    display: flex;
+    border: 2px solid #382f2f;
+    margin: 15px;
+    padding: 10px;
+}
+
+.list-image img {
+    width: 290px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.list-details h2{
+    font-size: 35px;
+    margin-left: 40px;
+}
+.details {
+    
+    width: 60px;
+    height: 40px;
+    background: #41d6e7;
+    margin-left: 40px;
+    color: #fff;
+}
+
+.details a{
+    text-decoration: none;
+}
+.list-details p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 40px;
+}
+#creator   {
+    font-style: italic;
+}
+.winner{
+    width: auto;
+    height: 80px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    font-size: 20px;
+    background: #05d686;
+    padding: 3px;
+    color: #fff;
+    display: flow-root;
+}
+
+#list-detail-price, #list-detail-author, #list-detail-description{
+    font-size: 25px;
+}
+
+.bid-form button {
+    font-size: 20px;
+    background: #41d6e7;
+    color: #fff;
+    border: none;
+}
+.bid-form input {
+    font-size: 20px;
+}
+
+.list-bottom-row button {
+    font-size: 20px;
+    background: #e0960e;
+    color: #fff;
+    border: none;
+}
+
+.list-bottom-row input{
+    font-size: 20px;
+}
+
+.comment-list{
+    margin: 3px;
+    border: 2px solid #b3e2a1;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flow-root;
+    border-radius: 30px;
+}
+#comment-author{
+    font-style: italic;
+    font-weight: bold;
+}
+.list-form-group{
+    margin: 3px;
+    font-size: 20px;
+}
+.list-form-group label {
+    width: 240px;
+    display: inline-block;
+}
+
+.list-form-group input{
+    font-size: 20px;
+}
+
+#create-btn{
+    font-size: 20px;
+    color: #DDD;
+    background: #41d6e7;
+    border: none;
+}
